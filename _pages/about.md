@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: #"About me"
+title: "Welcome!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,10 +12,10 @@ redirect_from:
 I am a third-year Computer Science PhD student at the [University of California, Irvine](https://uci.edu/). My research interests are:
 
 1. **Designing Algorithms under Uncertainty**  
-   I develop robust algorithms capable of handling uncertain inputs and dynamic environments. My work in this area covers topics such as online algorithms and algorithmic game theory.
+   I am interested in developing robust algorithms capable of handling uncertain inputs and dynamic environments. My work in this area covers topics such as online algorithms and algorithmic game theory.
 
 2. **Decentralized Data Markets**  
-   I investigate new models for data exchange and federated learning, contributing to the emerging field of decentralized data markets.
+   I am passionate about investigating new models for data exchange and federated learning, contributing to the emerging field of decentralized data markets.
 
 ## Academic Background
 
