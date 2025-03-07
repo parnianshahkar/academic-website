@@ -27,7 +27,7 @@ Additionally, I have enriched my academic journey through research assistant rol
 
 ---
 
-Feel free to explore my website to learn more about my research and academic journey.
+Feel free to explore my website to learn more about my research and academic journey!
 
 <!-- Welcome! I am a third-year Computer Science PhD student at University of California, Irvine. My main research interests broadly fall into the following two categories:
 1- Designing algorithms under uncertainty, where the goal is to design algorithms for uncertain inputs or environments. For example areas such as Online Algorithms, and Algorithmic Game Theory. 
