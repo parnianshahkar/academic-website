@@ -1,11 +1,41 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+# Welcome!
+
+I am a third-year Computer Science PhD student at the [University of California, Irvine](https://uci.edu/). My research interests are:
+
+1. **Designing Algorithms under Uncertainty**  
+   I develop robust algorithms capable of handling unpredictable inputs and dynamic environments. My work in this area covers topics such as online algorithms and algorithmic game theory.
+
+2. **Decentralized Data Markets**  
+   I investigate new models for data exchange and federated learning, contributing to the emerging field of decentralized data markets.
+
+## Academic Background
+
+Before joining UCI, I earned my **M.Sc. in the D-MTEC Department** at [ETH Zurich](https://ethz.ch/), under the guidance of [Prof. Hans Gersbach](http://www.gersbach.de) and [Dr. Akaki Mamageishvili](http://mamageishvili.info). My master’s thesis examined liquid democracy and the impact of free vote delegation in proof-of-stake blockchains.
+
+I completed my **B.Sc. in Electrical Engineering** (with a minor in Computer Science) at [Sharif University of Technology](http://www.sharif.edu/), where I worked on machine learning applications in medicine under the supervision of [Prof. Babak Khalaj](https://sharif.edu/~khalaj/).
+
+Additionally, I have enriched my academic journey through research assistant roles at the **KOF Swiss Economic Institute** and the **KTH Royal Institute of Technology** in Sweden. In the summer of 2024, I had the privilege of visiting [UIUC](https://illinois.edu/) to collaborate with [Prof. Ruta Mehta](https://rutamehta.cs.illinois.edu), [Prof. Jugal Garg](https://jugal.ise.illinois.edu), and [Prof. Bhaskar Ray Chaudhury](https://www.bhaskar-ray-chaudhury.com) on several exciting projects.
+
+---
+
+<!-- Feel free to explore my website to learn more about my research and academic journey. -->
+
+<!-- Welcome! I am a third-year Computer Science PhD student at University of California, Irvine. My main research interests broadly fall into the following two categories:
+1- Designing algorithms under uncertainty, where the goal is to design algorithms for uncertain inputs or environments. For example areas such as Online Algorithms, and Algorithmic Game Theory. 
+
+2- Decentralized data markets: topics on data markets, exchange and federated learning. 
+
+Before coming to UCI, I got my M.Sc. in the D-MTEC department at ETH Zurich, where I was advised by Prof. Hans Gersbach and Dr. Akaki Mamageishvili. My master's thesis was about liquid democracy and studying the effect of free vote delegation in proof-of-stake blockchains. I received my B.Sc. degree in Electrical Engineering and a minor degree in Computer Science from Sharif University of Technology. There I worked on machine learning in medicine design under the supervision of Prof. Babak Khalaj. I have also worked as a research assistant at KOF Swiss Economic Institute and KTH Royal Institute of Technology in Sweden. In summer 2024, I visited Prof. Ruta Mehta at UIUC, where I had the privilage of working with many new interesting projects.  -->
+
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
