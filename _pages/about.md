@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome!
+<!-- # Welcome! -->
 
 I am a third-year Computer Science PhD student at the [University of California, Irvine](https://uci.edu/). My research interests are:
 
