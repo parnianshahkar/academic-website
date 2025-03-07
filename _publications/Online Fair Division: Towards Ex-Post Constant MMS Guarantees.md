@@ -6,8 +6,8 @@ permalink: /publication/Online_Fair_Division_Towards_Ex-Post_Constant_MMS_Guaran
 excerpt: 'Pooja Kulkarni, Ruta Mehta, Parnian Shahkar'
 date: #2009-10-01
 venue: #'Journal 1'
-slidesurl: #'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://arxiv.org/abs/2503.02088'
+slidesurl: #'https://arxiv.org/abs/2503.02088'
+paperurl: #'https://arxiv.org/abs/2503.02088'
 citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 <!-- 
