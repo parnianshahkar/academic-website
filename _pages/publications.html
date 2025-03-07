@@ -40,12 +40,26 @@ author_profile: true
             <ul>
                 <li>With Jugal Garg</li>
             </ul>
+            <details>
+              <summary>Abstract</summary>
+              <p> 
+                We study fair division of indivisible goods under the maximin share (MMS) fairness criterion in settings where agents are grouped into a small number of types, with agents within each type having identical valuations. For the special case of a single type, an exact MMS allocation is always guaranteed to exist. However, for two or more distinct agent types, exact MMS allocations do not always exist, shifting the focus to establishing the existence of approximate-MMS allocations. A series of works over the last decade has resulted in the best-known approximation guarantee of 34+33836. 
+                In this paper, we improve the approximation guarantees for settings where agents are grouped into two or three types, a scenario that arises in many practical settings. Specifically, we present novel algorithms that guarantee a 45-MMS allocation for two agent types and a 1621-MMS allocation for three agent types. Our approach leverages the MMS partition of the majority type and adapts it to provide improved fairness guarantees for all types.  
+              </p>
+          </details>
       </li>
       <li>
         <h3 id="Equitable-Core-Imputations-for-Max-Flow,-MST-and-b-Matching Games"><a href="https://arxiv.org/abs/2403.06037">Equitable Core Imputations for Max-Flow, MST and b-Matching Games</a></h3>
           <ul>
             <li>With Rohith R. Gangam, Naveen Garg, and Vijay V. Vazirani</li>
           </ul>
+          <details>
+            <summary>Abstract</summary>
+            <p> 
+              We study fair allocation of profit (or cost) for three central problems from combinatorial optimization: Max-Flow, MST and b-matching. The essentially unequivocal choice of solution concept for this purpose would be the core, because of its highly desirable properties. However, recent work [Vaz24] observed that for the assignment game, an arbitrary core imputation makes no fairness guarantee at the level of individual agents. To rectify this deficiency, special core imputations, called equitable core imputations, were defined - there are two such imputations, leximin and leximax - and efficient algorithms were given for finding them. For all three games, we start by giving examples to show that an arbitrary core imputation can be excessively unfair to certain agents. This led us to seek equitable core imputations for our three games as well. However, the ubiquitous tractable vs intractable schism separates the assignment game from our three games, making our task different from that of [Vaz24]. As is usual in the presence of intractability, we resorted to defining the Owen set for each game and algorithmically relating it to the set of optimal dual solutions of the underlying combinatorial problem. We then give polynomial time algorithms for finding equitable imputations in the Owen set. The motivation for this work is two-fold: the emergence of automated decision-making, with a special emphasis on fairness, and the plethora of industrial applications of our three games.
+            </p>
+        </details>
+
       </li>
       <li>
         <h3 id="On-the-Existence-and-Complexity-of-Core-Stable-Data-Exchanges">On the Existence and Complexity of Core-Stable Data Exchanges
@@ -53,6 +67,17 @@ author_profile: true
           <ul>
             <li>With Bhaskar Ray Chaudhaury, Pooja Kulkarni, and Jiaxin Song</li>
           </ul>
+          <details>
+            <summary>Abstract</summary>
+            <p> 
+              The rapid growth of data-driven technologies, coupled with the widespread distribution of high-quality data across various organizations, has made the development of efficient data exchange protocols increasingly important. However, agents must navigate the delicate balance between acquiring valuable data and bearing the costs of sharing their own. Ensuring stability in these exchanges is essential to prevent agents — or groups of agents — from departing and conducting local exchanges independently.
+              To address this, we study a model where n agents participate in a data exchange. Each agent has an associated concave payoff function and convex cost function — a setting typical in domains such as PAC learning and random discovery models. The net utility of an agent is its payoff minus its cost. We study the classical notion of core-stability. An exchange is core-stable if no subset of agents has any incentive to deviate to a different exchange. This notion also guarantees individual rationality and Pareto optimality.
+              Our key contributions are:
+              1- Existence and Computation. Modeling the data exchange as an n-person game, we prove the game is balanced, thereby guaranteeing the existence of core-stable exchanges. This approach also naturally gives us a pivoting algorithm via Scarf's theorem (Scarf, 1967). Further, we show that the algorithm works well in practice through our empirical results.
+              2- Complexity. We prove that computing a core-stable exchange is PPAD-hard, even when the potential blocking coalitions are restricted to a constant number of agents. To the best of our knowledge, this is the first PPAD-hardness result for problems seeking core-like guarantees in data economies.
+              We further show that relaxing either the concavity of the payoff function or the convexity of the cost function can lead to settings where core-stable exchanges may not exist. Additionally, given an arbitrary instance, determining whether a core-stable data exchange exists is NP-hard. Together, these findings delineate the existential and computational boundaries of achieving core stability in data exchange economies.
+            </p>
+        </details>
       </li>
       <li>
         <h3 id="Reciprocally-Fair-Federated-Learning">
@@ -61,8 +86,18 @@ author_profile: true
         <ul>
         <li>With Aniket Murhekar, Jiaxin Song, Bhaskar Ray Chaudhury, and Ruta Mehta</li>
         </ul>
-      </li>
-</ul>
+        <details>
+          <summary>Abstract</summary>
+          <p> 
+        Federated learning (FL) is a popular collaborative learning paradigm, where agents with individual datasets can jointly train a machine learning (ML) model. While higher data sharing improves model accuracy and leads to higher payoffs, it also raises costs associated with data acquisition or loss of privacy, causing agents to be strategic about their data contribution. This leads to undesirable behavior at a Nash equilibrium (NE), such as free-riding, resulting in sub-optimal fairness, data sharing, and welfare.
+
+        To address this, we design M_Shap, a budget-balanced payment mechanism for FL that admits Nash equilibria under mild conditions and achieves reciprocal fairness, where each agent's payoff equals their contribution to the collaboration, as measured by the Shapley share.
+
+        In addition to fairness, we show that the Nash equilibrium under M_Shap has desirable guarantees in terms of accuracy, welfare, and total data collected. We validate our theoretical results through experiments, demonstrating that M_Shap outperforms baselines in terms of fairness and efficiency.
+          </p>
+        </details>      
+        </li>
+      </ul>
 <h1 id="publications">Publications</h1>
   <ul>
     <li>
@@ -73,6 +108,18 @@ author_profile: true
                                 <li>With Martin Bullinger and Vaggos Chatziafratis</li>
                                 <li>In Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025)</li>
                             </ul>
+                            <details>
+                              <summary>Abstract</summary>
+                              <p> 
+                                Partitioning a set of n items or agents while maximizing the value of the partition is a fundamental algorithmic task. We study this problem in the specific setting of maximizing social welfare in additively separable hedonic games.
+
+                                Unfortunately, this task faces strong computational boundaries: extending previous results, we show that approximating welfare by a factor of n^(1 - epsilon) is NP-hard, even for severely restricted weights.
+
+                                However, we can obtain a randomized O(log n)-approximation on instances for which the sum of input valuations is nonnegative.
+
+                                Finally, we study two stochastic models of aversion-to-enemies games, where the weights are derived from Erdős-Rényi or multipartite graphs. We obtain constant-factor and logarithmic-factor approximations with high probability.
+                              </p>
+                            </details>   
                         </li>
                         <li>
                             <h3 id="Robust-Popular-Matchings">
@@ -82,7 +129,13 @@ author_profile: true
                                 <li>With Martin Bullinger and Rohith Reddy Gangam</li>
                                 <li>In Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2024)</li>
                             </ul>
-                        </li>
+                            <details>
+                              <summary>Abstract</summary>
+                              <p> 
+                                We study popularity for matchings under preferences. This solution concept captures matchings that do not lose against any other matching in a majority vote by the agents. A popular matching is said to be robust if it is popular among multiple instances. We present a polynomial-time algorithm for deciding whether there exists a robust popular matching if instances only differ with respect to the preferences of a single agent while obtaining NP-completeness if two instances differ only by a downward shift of one alternative by four agents. Moreover, we find a complexity dichotomy based on preference completeness for the case where instances differ by making some options unavailable.
+                              </p>
+                            </details>   
+                          </li>
           
 </ul>
 
