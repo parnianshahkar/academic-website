@@ -5,9 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
+<!-- {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+{% endif %} -->
 
 {% include base_path %}
 
@@ -19,9 +19,9 @@ author_profile: true
             <ul>
               <li>Pooja Kulkarni, Ruta Mehta, Parnian Shahkar</li>
             </ul>
-            <button onclick="toggleAbstract('abstract1')">Show/Hide Abstract</button>
-              <div id="abstract1" class="abstract">
-              <p>  
+              <button onclick="toggleAbstract('abstract1')">Show/Hide Abstract</button>
+              <div id="abstract1" style="display: none; margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
+                <p>  
                 We investigate the problem of fairly allocating $m$ indivisible items among $n$ sequentially arriving agents with additive valuations, under the sought-after fairness notion of maximin share (MMS). We first observe a strong impossibility: without appropriate knowledge about the valuation functions of the incoming agents, no online algorithm can ensure any non-trivial MMS approximation, even when there are only two agents. Motivated by this impossibility, we introduce OnlineKTypeFD (online k-type fair division), a model that balances theoretical tractability with real-world applicability. In this model, each arriving agent belongs to one of k types, with all agents of a given type sharing the same known valuation function. We do not constrain k to be a constant. Upon arrival, an agent reveals her type, receives an irrevocable allocation, and departs. We study the ex-post MMS guarantees of online algorithms under two arrival models: 
                 1- Adversarial arrivals: In this model, an adversary determines the type of each arriving agent. We design a $\frac{1}{k}$-MMS competitive algorithm and complement it with a lower bound, ruling out any $\Omega(\frac{1}{\sqrt{k}})$-MMS-competitive algorithm, even for binary valuations. 
                 2- Stochastic arrivals: In this model, the type of each arriving agent is independently drawn from an underlying, possibly unknown distribution. Unlike the adversarial setting where the dependence on k is unavoidable, we surprisingly show that in the stochastic setting, an asymptotic, arbitrarily close-to-$\frac{1}{2}$-MMS competitive guarantee is achievable under mild distributional assumptions. 
