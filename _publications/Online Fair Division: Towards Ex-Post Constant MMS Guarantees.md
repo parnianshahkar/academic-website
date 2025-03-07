@@ -7,11 +7,11 @@ excerpt: 'We investigate the problem of fairly allocating m indivisible items am
 1- Adversarial arrivals: In this model, an adversary determines the type of each arriving agent. We design a 1k-MMS competitive algorithm and complement it with a lower bound, ruling out any Ω(1k√)-MMS-competitive algorithm, even for binary valuations. 
 2- Stochastic arrivals: In this model, the type of each arriving agent is independently drawn from an underlying, possibly unknown distribution. Unlike the adversarial setting where the dependence on k is unavoidable, we surprisingly show that in the stochastic setting, an asymptotic, arbitrarily close-to-12-MMS competitive guarantee is achievable under mild distributional assumptions. 
 Our results extend naturally to a learning-augmented framework; when given access to predictions about valuation functions, we show that the competitive ratios of our algorithms degrade gracefully with multiplicative prediction errors.'
-date: #2009-10-01
-venue: #'Journal 1'
-slidesurl: #'http://academicpages.github.io/files/slides1.pdf'
+# date: #2009-10-01
+# venue: #'Journal 1'
+# slidesurl: #'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2503.02088'
-citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+# citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 <!-- 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font. -->
