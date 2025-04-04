@@ -9,7 +9,7 @@ redirect_from:
 
 <!-- # Welcome! -->
 
-I am a third-year Computer Science PhD student at the [University of California, Irvine](https://uci.edu/). My research interests are:
+I am a third-year Computer Science PhD student at the [University of California, Irvine](https://uci.edu/). My research advisor is [Prof. Ioannis Panageas](https://panageas.github.io), and my research interests are:
 
 1. **Designing Algorithms under Uncertainty**  
    I am interested in developing robust algorithms capable of handling uncertain inputs and dynamic environments. My work in this area covers topics such as online algorithms and algorithmic game theory.
