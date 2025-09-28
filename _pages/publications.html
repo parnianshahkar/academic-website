@@ -13,6 +13,32 @@ author_profile: true
 
 <h1 id="ongoing-work">Upcoming Work</h1>
   <ul>
+    <li>
+      <h3 id="Equilibrium-Pricing-for-Data-Markets">Equilibrium Pricing for Data Markets</a></h3>
+        <ul>
+          <li>With Pooja Kulkarni and Ruta Mehta</li>
+        </ul>
+        <details>
+          <summary>Abstract</summary>
+          <p> 
+            Data is increasingly viewed as a strategic asset, yet standardized market mechanisms for its pricing and exchange remain underdeveloped. Unlike traditional goods, data is non-rivalrous and infinitely replicable, rendering classical notions of competitive equilibrium—where prices balance supply and demand—inapplicable. We propose a new model for competitive pricing in data markets, grounded in game-theoretic principles. We model the interaction between sellers and buyers as a Stackelberg-type game: sellers first set prices, and buyers respond by purchasing their most preferred bundles subject to budget constraints. Since data is non-rivalrous, buyers can always access their optimal bundles. Sellers, aiming to maximize revenue, engage in a strategic pricing game. We define equilibrium prices as a Nash equilibrium in this game, where no seller can unilaterally improve her revenue. For a natural class of buyer utility functions arising from vertically distributed data, we show the following: (1) There exists a $rational$ Nash equilibrium that is computable in polynomial time. (2) Among all equilibria, the aforementioned equilibrium is simultaneously revenue-maximizing for sellers, welfare-maximizing for buyers, and $fair$ to all sellers. Our results parallel classical insights: competitive pricing promotes both efficiency and fairness. Additionally, we show that the natural best-response dynamics converge to a $(1 + \epsilon)$-approximate equilibrium. We empirically compare these equilibria and analyze the role of online-platform mediation in improving market outcomes. On the technical side, the set of equilibria is non-convex, so standard fixed-point techniques (e.g., Kakutani’s theorem) are inapplicable. Instead, we develop a novel ${graph\text{-}of\text{-}deviations}$ framework and show acyclicity to establish existence and computation of rational equilibria.
+          </p>
+      </details>
+
+    </li>
+    <li>
+      <h3 id="Human-AI-Collaboration-with-Misaligned-Preferences">Human-AI Collaboration with Misaligned Preferences</a></h3>
+        <ul>
+          <li>With Jiaxin Song, Kate Donahue, and Bhaskar Ray Chaudhury</li>
+        </ul>
+        <details>
+          <summary>Abstract</summary>
+          <p> 
+            In many real-life settings, algorithms play the role of assistants, while humans ultimately make the final decision. Often, algorithms specifically act as curators, narrowing down a wide range of options into a smaller subset that the human picks between: consider content recommendation or chatbot responses to questions with multiple valid answers. Crucially, humans may not know their own preferences perfectly either, but instead may only have access to a noisy sampling over preferences. Algorithms can assist humans by curating a smaller subset of items, but must also face the challenge of misalignment: humans may have different preferences from each other (and from the algorithm), and the algorithm may not know the exact preferences of the human they are facing at any point in time. In this paper, we model and theoretically study such a setting. Specifically, we show instances where humans benefit by collaborating with a misaligned algorithm. Surprisingly, we show that humans gain more utility from a misaligned algorithm (which makes different mistakes) than from an aligned algorithm. Next, we build on this result by studying what properties of algorithms maximize human welfare, when the goals could be either utilitarian welfare or ensuring all humans benefit. We conclude by discussing implications for designers of algorithmic tools and policymakers.           </p>
+      </details>
+
+    </li>
+
       <li>
         <h3 id="Equitable-Core-Imputations-for-Max-Flow,-MST-and-b-Matching Games"><a href="https://arxiv.org/abs/2403.06037">Equitable Core Imputations for Max-Flow, MST and b-Matching Games</a></h3>
           <ul>
@@ -26,27 +52,58 @@ author_profile: true
         </details>
 
       </li>
-      <li>
-        <h3 id="On-the-Existence-and-Complexity-of-Core-Stable-Data-Exchanges">On the Existence and Complexity of Core-Stable Data Exchanges
-          </h3>
-          <ul>
-            <li>With Bhaskar Ray Chaudhaury, Pooja Kulkarni, and Jiaxin Song</li>
-          </ul>
-          <details>
-            <summary>Abstract</summary>
-            <p> 
-              The rapid growth of data-driven technologies, coupled with the widespread distribution of high-quality data across various organizations, has made the development of efficient data exchange protocols increasingly important. However, agents must navigate the delicate balance between acquiring valuable data and bearing the costs of sharing their own. Ensuring stability in these exchanges is essential to prevent agents — or groups of agents — from departing and conducting local exchanges independently.
+      </ul>
+<h1 id="publications">Publications</h1>
+  <ul>
+    <li>
+      <h3 id="On-the-Existence-and-Complexity-of-Core-Stable-Data-Exchanges"><a href="https://arxiv.org/abs/2509.16450">On the Existence and Complexity of Core-Stable Data Exchanges
+      </a>
+      </h3>
+        <ul>
+          <li>Jiaxin Song, Pooja Kulkarni, Parnian Shahkar, Bhaskar Ray Chaudhury</li>
+          <li>NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems </li>
+        </ul>
+        <details>
+          <summary>Abstract</summary>
+          <p> 
+            The rapid growth of data-driven technologies, coupled with the widespread distribution of high-quality data across various organizations, has made the development of efficient data exchange protocols increasingly important. However, agents must navigate the delicate balance between acquiring valuable data and bearing the costs of sharing their own. Ensuring stability in these exchanges is essential to prevent agents — or groups of agents — from departing and conducting local exchanges independently.
               To address this, we study a model where n agents participate in a data exchange. Each agent has an associated concave payoff function and convex cost function — a setting typical in domains such as PAC learning and random discovery models. The net utility of an agent is its payoff minus its cost. We study the classical notion of core-stability. An exchange is core-stable if no subset of agents has any incentive to deviate to a different exchange. This notion also guarantees individual rationality and Pareto optimality.
               Our key contributions are:
               1- Existence and Computation. Modeling the data exchange as an n-person game, we prove the game is balanced, thereby guaranteeing the existence of core-stable exchanges. This approach also naturally gives us a pivoting algorithm via Scarf's theorem (Scarf, 1967). Further, we show that the algorithm works well in practice through our empirical results.
               2- Complexity. We prove that computing a core-stable exchange is PPAD-hard, even when the potential blocking coalitions are restricted to a constant number of agents. To the best of our knowledge, this is the first PPAD-hardness result for problems seeking core-like guarantees in data economies.
               We further show that relaxing either the concavity of the payoff function or the convexity of the cost function can lead to settings where core-stable exchanges may not exist. Additionally, given an arbitrary instance, determining whether a core-stable data exchange exists is NP-hard. Together, these findings delineate the existential and computational boundaries of achieving core stability in data exchange economies.
-            </p>
-        </details>
-      </li>
+          </p>
+      </details>
+          <!-- <button onclick="toggleAbstract('abstract1')">Show/Hide Abstract</button>
+          <div id="abstract1" style="display: none; margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
+            <p>  
+            
+          </p>
+          </div> -->
+  </li>
+  <li>
+    <h3 id="The-Complexity-of-Finding-Local-Optima-in-Contrastive-Learning"><a href="https://arxiv.org/abs/2509.16898">The Complexity of Finding Local Optima in Contrastive Learning
+
+    </a>
+    </h3>
+      <ul>
+        <li>Jingming Yan, Yiyuan Luo, Vaggos Chatziafratis, Ioannis Panageas, Parnian Shahkar, Stelios Stavroulakis</li>
+        <li>NeurIPS 2025: The Thirty-Ninth Annual Conference on Neural Information Processing Systems     </li>
       </ul>
-<h1 id="publications">Publications</h1>
-  <ul>
+      <details>
+        <summary>Abstract</summary>
+        <p> 
+          Contrastive learning is a powerful technique for discovering meaningful data representations by optimizing objectives based on contrastive information, often given as a set of weighted triplets indicating that an "anchor" is more similar to a "positive" example than to a "negative" example. The goal is to find representations (e.g., embeddings or a tree metric) where anchors are placed closer to positive than to negative examples. While finding global optima of contrastive objectives is NP-hard, the complexity of finding local optima -- representations that do not improve by local search algorithms such as gradient-based methods -- remains open. Our work settles the complexity of finding local optima in various contrastive learning problems by proving PLS-hardness in discrete settings (e.g., maximize satisfied triplets) and CLS-hardness in continuous settings (e.g., minimize Triplet Loss), where PLS (Polynomial Local Search) and CLS (Continuous Local Search) are well-studied complexity classes capturing local search dynamics in discrete and continuous optimization, respectively. Our results imply that no polynomial time algorithm (local search or otherwise) can find a local optimum for various contrastive learning problems, unless PLS is in P (or CLS is in P for continuous problems). Even in the unlikely scenario that PLS is in P (or CLS is in P), our reductions imply that there exist instances where local search algorithms need exponential time to reach a local optimum, even for d=1 (embeddings on a line).
+        </p>
+    </details>
+        <!-- <button onclick="toggleAbstract('abstract1')">Show/Hide Abstract</button>
+        <div id="abstract1" style="display: none; margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
+          <p>  
+          
+        </p>
+        </div> -->
+</li>
+
     <li>
       <h3 id="Online-Fair-Division-Towards-Ex-Post-Constant-MMS-Guarantees"><a href="https://arxiv.org/abs/2503.02088">Online Fair Division: Towards Ex-Post Constant MMS Guarantees</a>
       </h3>
