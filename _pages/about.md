@@ -17,6 +17,26 @@ I am a fourth-year Computer Science PhD student at the [University of California
 2. **Decentralized Data Markets**  
    I am passionate about investigating new models for data exchange and federated learning, contributing to the emerging field of decentralized data markets.
 
+---
+
+## News
+
+- **October 2025** — Presenting our paper on online fair division at **INFORMS** (Atlanta).  
+- **September 2025** — Great visit to Northwestern University with **Prof. Edith Elkind**.  
+- **September 2025** — Presenting our paper on **Data Markets** at Northwestern University.  
+- **September 2025** — Attending the **Human-AI Complementarity** workshop at **CMU**.  
+- **July 2025** — Attending **EC 2025** at Stanford. If you’re around, let me know!  
+- **May 2025** — Our paper on online fair division accepted at **EC 2025**.  
+- **May 2025** — Attending **AAMAS 2025**; presenting our online fair division paper in the **GAIW** workshop.  
+- **May 2025** — Presenting our paper on welfare approximations in hedonic games at **AAMAS 2025**.  
+- **April 2025** — Our paper on fair division with few types accepted at **IJCAI 2025**.  
+- **April 2025** — Our paper on federated learning accepted at **ICML 2025**.  
+- **November 2024** — Our paper on welfare approximations in hedonic games accepted at **AAMAS 2025**.  
+- **October 2024** — Attending **FOCS 2024**; would love to catch up!  
+- **August 2024** — Presenting “**Fair core imputations in flow games**” at **UIUC**.  
+- **Summer 2024** — Wonderful visit to **UIUC** with **Prof. Ruta Mehta**.
+
+---
 ## Academic Background
 
 Before joining UCI, I earned my **M.Sc. in the D-MTEC Department** at [ETH Zurich](https://ethz.ch/), under the guidance of [Prof. Hans Gersbach](http://www.gersbach.de) and [Dr. Akaki Mamageishvili](http://mamageishvili.info). My master’s thesis examined liquid democracy and the impact of free vote delegation in proof-of-stake blockchains.
