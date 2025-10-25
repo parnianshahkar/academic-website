@@ -24,7 +24,7 @@ I am a fourth-year Computer Science PhD student at the [University of California
 - **October 2025** — Presenting our paper on online fair division at **INFORMS** (Atlanta).  
 - **September 2025** — Great visit to Northwestern University with **Prof. Edith Elkind**.  
 - **September 2025** — Presenting our paper on **Data Markets** at Northwestern University.  
-- **September 2025** — Attending the **Human-AI Complementarity** workshop at **CMU**.  
+- **September 2025** — Presenting our paper on Human-AI collaboration under misalignment in the **Human-AI Complementarity** workshop at **CMU**.  
 - **July 2025** — Attending **EC 2025** at Stanford. If you’re around, let me know!  
 - **May 2025** — Our paper on online fair division accepted at **EC 2025**.  
 - **May 2025** — Attending **AAMAS 2025**; presenting our online fair division paper in the **GAIW** workshop.  
