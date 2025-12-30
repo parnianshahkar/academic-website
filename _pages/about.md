@@ -17,7 +17,8 @@ I am a fourth-year Computer Science PhD student at the [University of California
 2. **Pricing and Mechanism Design for Data and API Markets**  
    I study how data and APIs should be priced in market settings, focusing on equilibrium outcomes and practical mechanisms for data exchange, contributing to the emerging field of decentralized data markets.
 
-3. **Incentive-aware Machine Learning** 
+3. **Incentive-aware Machine Learning**
+  
    I’m also very interested in the interplay between AGT and LLMs/ML, both in using AGT to design and analyze LLM/ML models (e.g., strategic fusion in multimodal ML or agentic auction design) and in applying ML to advance AGT problems, such as neural combinatorial optimization.
 
 ---
