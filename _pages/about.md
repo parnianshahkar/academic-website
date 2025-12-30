@@ -11,16 +11,20 @@ redirect_from:
 
 I am a fourth-year Computer Science PhD student at the [University of California, Irvine](https://uci.edu/). My research advisor is [Prof. Ioannis Panageas](https://panageas.github.io), and my research interests are:
 
-1. **Designing Algorithms under Uncertainty**  
-   I am interested in developing robust algorithms capable of handling uncertain inputs and dynamic environments. My work in this area covers topics such as online algorithms and algorithmic game theory.
+1. **Algorithms for Uncertain and Dynamic Environments**  
+   I develop algorithms that remain reliable when inputs are noisy, incomplete, or arrive over time. This includes work on online algorithms and algorithmic game theory, with an emphasis on robustness and performance guarantees in changing settings.
 
-2. **Decentralized Data Markets**  
-   I am passionate about investigating new models for data exchange and federated learning, contributing to the emerging field of decentralized data markets.
+2. **Pricing and Mechanism Design for Data and API Markets**  
+   I study how data and APIs should be priced in market settings, focusing on equilibrium outcomes and practical mechanisms for data exchange, contributing to the emerging field of decentralized data markets.
+
+3. **Incentive-aware Machine Learning** 
+   I’m also very interested in the interplay between AGT and LLMs/ML, both in using AGT to design and analyze LLM/ML models (e.g., strategic fusion in multimodal ML or agentic auction design) and in applying ML to advance AGT problems, such as neural combinatorial optimization.
 
 ---
 
 ## News
-
+- **December 2025** — Presenting our paper on the Existence and Complexity of Core-Stable Data Exchanges at **NeurIPS** (San Diego).  
+- **December 2025** — Our paper on Equitable Core Imputations for Max-Flow, MST and b-Matching Games got accepted at **AAMAS 2026**.  
 - **October 2025** — Presenting our paper on online fair division at **INFORMS** (Atlanta).  
 - **September 2025** — Great visit to Northwestern University with **Prof. Edith Elkind**.  
 - **September 2025** — Presenting our paper on **Data Markets** at Northwestern University.  
