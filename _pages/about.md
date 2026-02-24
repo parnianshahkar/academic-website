@@ -18,8 +18,8 @@ I am a fourth-year Computer Science PhD student at the [University of California
    I study the economics of AI infrastructure by designing pricing models and stable data exchanges. My research focuses on establishing equilibrium outcomes, proving price of anarchy bounds, and building practical mechanisms that align incentives in decentralized data markets.
 
 3. **The Intersection of Algorithmic Game Theory and AI.**
-   I explore the intersection of AGT and modern machine learning. My current work applies game-theoretic principles to align incentives in distributed learning frameworks, and studies the benefits of heterogeneity in agentic AI—such as when two misaligned LLMs collaborate on a task. 
----
+   I explore the intersection of AGT and modern machine learning. My current work applies game-theoretic principles to align incentives in distributed learning frameworks, and studies the benefits of heterogeneity in agentic AI—such as when two misaligned LLMs collaborate on a task.
+
 
 ## News
 - **December 2025** — Presenting our paper on the Existence and Complexity of Core-Stable Data Exchanges at **NeurIPS** (San Diego).  
