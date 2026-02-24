@@ -12,14 +12,13 @@ redirect_from:
 I am a fourth-year Computer Science PhD student at the [University of California, Irvine](https://uci.edu/). My research advisor is [Prof. Ioannis Panageas](https://panageas.github.io), and my research interests are:
 
 1. **Algorithms for Uncertain and Dynamic Environments**  
-   I develop algorithms that remain reliable when inputs are noisy, incomplete, or arrive over time. This includes work on online algorithms and algorithmic game theory, with an emphasis on robustness and performance guarantees in changing settings.
+  I design robust online algorithms and game-theoretic frameworks for dynamic settings where data is noisy, incomplete, or arrives over time. My work specifically focuses on resource allocation and fair division, ensuring strict theoretical performance guarantees even when the environment is constantly changing.
 
 2. **Pricing and Mechanism Design for Data and API Markets**  
-   I study how data and APIs should be priced in market settings, focusing on equilibrium outcomes and practical mechanisms for data exchange, contributing to the emerging field of decentralized data markets.
+   I study the economics of AI infrastructure by designing pricing models and stable data exchanges. My research focuses on establishing equilibrium outcomes, proving price of anarchy bounds, and building practical mechanisms that align incentives in decentralized data markets.
 
-3. **Incentive-aware Machine Learning**
-   I’m also very interested in the interplay between AGT and LLMs/ML, both in using AGT to design and analyze LLM/ML models (e.g., strategic fusion in multimodal ML or agentic auction design) and in applying ML to advance AGT problems, such as neural combinatorial optimization.
-
+3. **The Intersection of Algorithmic Game Theory and AI.**
+   I explore the intersection of AGT and modern machine learning. My current work applies game-theoretic principles to align incentives in distributed learning frameworks, and studies the benefits of heterogeneity in agentic AI—such as when two misaligned LLMs collaborate on a task. 
 ---
 
 ## News
