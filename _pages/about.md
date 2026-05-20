@@ -22,6 +22,7 @@ I am a fourth-year Computer Science PhD student at the [University of California
 
 
 ## News
+- **April 2026** —  Our paper on How to Price Data: A Market Equilibrium Based Approach got accepted at **ICML 2026**. 
 - **December 2025** — Presenting our paper on the Existence and Complexity of Core-Stable Data Exchanges at **NeurIPS** (San Diego).  
 - **December 2025** — Our paper on Equitable Core Imputations for Max-Flow, MST and b-Matching Games got accepted at **AAMAS 2026**.  
 - **October 2025** — Presenting our paper on online fair division at **INFORMS** (Atlanta).  
